@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    height: 35px;
+    width: 60px;
+    background-color: grey;
+}
+
+img{
+    margin-top: 20px;
+}
+.container-img{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-img{
+    width: 80vw;
+    height: 80%;
+    background-image: url("./dgcyiy8-df915223-6691-4f15-aebf-2f8b2310c180.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    color: blue;
+    padding: 20px;
+}
+.dd{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    gap: 20px; 
+    border-bottom: 2px solid silver;
+}
+.ss{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    background-color: black;
+}
+
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5 );
+    top: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.login-cont{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.login-cont input{
+    width: 70%;
+    height: 30px;
+    padding: 0px 5px;
+}
+.login-cont button{
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.garchig{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.garchig-in{
+    display: flex;
+    gap: 30px;
+}
+.toonuud{
+    width: 80%;
+    display: flex;
+    gap: 30px ;
+}
+.first{
+    border: 1px solid silver;
+    height: 100px;
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.f-cont{
+    width: 50%;
+}
